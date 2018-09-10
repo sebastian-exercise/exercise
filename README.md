@@ -15,3 +15,19 @@ Explores the possibility of building a collaborative filtering recommender based
 
 ## fracc_weekends_prediction.ipynb
 Explores the possibility of predicting the fraction of checkins a business receives during weekends.
+
+# Instructions
+The easiest way to reproduce the results is using virtual enviroments. Create a new virtualenv and install standard packages via the command:  
+*python -m pip install --user numpy scipy matplotlib ipython jupyter pandas seaborn*
+
+Clone this repository, change the current directory to the one where the repository was saved and launch Jupyter via the command *jupyter notebook*. 
+
+The code assumes the different .json files from the challenge dataset are saved in a folder *data*, located at the same level as the folder containing the notebooks. For example, a proper hierarchy would be:
+<some path>/code/contagiousness.ipynb
+                /recommendations.ipynb
+                /fracc_weekends_prediction.ipynb
+                ...
+           /data/yelp_academic_dataset_review.json
+                /yelp_academic_dataset_user.json
+                ...
+

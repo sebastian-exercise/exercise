@@ -24,7 +24,7 @@ Clone this repository, change the current directory to the one where the reposit
 
 The code assumes the different .json files from the challenge dataset are saved in a folder *data*, located at the same level as the folder containing the notebooks. For example, a proper hierarchy would be:
 <some path>/code/contagiousness.ipynb
-                /recommendations.ipynb
+... /recommendations.ipynb
                 /fracc_weekends_prediction.ipynb
                 ...
            /data/yelp_academic_dataset_review.json

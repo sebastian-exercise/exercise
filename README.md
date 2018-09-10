@@ -22,6 +22,8 @@ The easiest way to reproduce the results is using virtual environments. Create a
 
 Clone this repository, change the current directory to the one where the repository was saved to and launch Jupyter via the command *jupyter notebook*. 
 
+Run every cell in dataset_genereation.ipynb. After this step, the three notebooks described above can be run in any order.
+
 The code assumes the different .json files from the challenge dataset are saved in a folder *data*, located at the same level as the folder containing the notebooks. For example, a proper hierarchy would be:
 
 - SOME_PATH/

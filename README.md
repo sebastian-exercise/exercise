@@ -31,7 +31,7 @@ Explores the possibility of predicting the fraction of checkins a business recei
     - yelp_academic_dataset_user.json
     - ...
 ```
-where <exercise-dir> is a path of your choice.
+where \<exercise-dir\> is a path of your choice.
 
 2. Run:
 ```

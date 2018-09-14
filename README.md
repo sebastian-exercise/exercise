@@ -5,7 +5,7 @@ The exercise is distributed in 3 main Jupyter notebooks (briefly described below
 - recommendations.ipynb
 - fracc_weekends_prediction.ipynb
 
-A 4th notebook is included for generating different tables used by the rest of the noteeboks: dataset_genereation.ipynb. **This notebook must be run before any other notebook**.
+A 4th notebook is included for generating different tables used by the rest of the noteeboks: dataset_genereation.ipynb. **This notebook must be run before any other notebook (see instructions below)**.
 
 ## contagiousness.ipynb
 Explores the hypothesis of a contagious effect between friends considering reviewed businesses.

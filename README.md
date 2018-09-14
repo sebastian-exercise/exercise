@@ -45,32 +45,32 @@ to pull the docker image from Docker Hub.
 ```
 to see the table of available images. Copy the value in column _IMAGE ID_ for the image associated to repository _lacroze863/exercise_ (that is, the one that was pulled in the previous step)
 
-4. Change your current directory to any directory above <exercise-dir> (the directory chosen in step 1)
+4. Change your current directory to any directory above \<exercise-dir\> (the directory chosen in step 1)
 
 5. Run:
 ```
   docker run -p <port>:8888 -v ${PWD}:/exercise <image-id>
 ```
 to lunch the docker container, where:
-	- <port> is a free port of your choice
-	- <image-id> is the image id copied in the previous step.
+	- \<port\> is a free port of your choice
+	- \<image-id\> is the image id copied in the previous step.
 
 6. You will a message from Jupyter Notebook. It will end with something like:
 ```
-    Copy/paste this URL into your browser when you connect for the first time,
+    Copy and paste this URL into your browser when you connect for the first time,
     to login with a token:
         http://<some url>:8888/?token=<token>
 ```
 where: 
-	- <token> is a large alphanumeric string. Copy it.
+	- \<token\> is a large alphanumeric string. Copy it.
 
 7. Open a web browser an go to the URL: 
 ```
   localhost:<port>/?token=<token>
 ```
 where:
-	- <port> is the port choosen in step 5
-	- <token> is the token copied in step 6
+	- \<port\> is the port choosen in step 5
+	- \<token\> is the token copied in step 6
 
 8. This will show the Jupyter Notebook interface in your browser. Navigate to the directory where the notebooks were saved in step 1:
 ```

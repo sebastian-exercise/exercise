@@ -45,7 +45,7 @@ to pull the docker image from Docker Hub.
 ```
 to see the table of available images. Copy the value in column _IMAGE ID_ for the image associated to repository _lacroze863/exercise_ (that is, the one that was pulled in the previous step)
 
-4. Change your current directory to any directory above \<exercise-dir\> (the directory chosen in step 1)
+4. Change your current directory to \<exercise-dir\> (the directory chosen in step 1)
 
 5. Run:
 ```

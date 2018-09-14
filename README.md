@@ -55,7 +55,7 @@ to lunch the docker container, where:
 - \<port\> is a free port of your choice
 - \<image-id\> is the image id copied in the previous step.
 
-6. You will a message from Jupyter Notebook. It will end with something like:
+6. You will get a log from Jupyter Notebook. It will end with something like:
 ```
     Copy and paste this URL into your browser when you connect for the first time,
     to login with a token:

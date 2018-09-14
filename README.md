@@ -52,8 +52,8 @@ to see the table of available images. Copy the value in column _IMAGE ID_ for th
   docker run -p <port>:8888 -v ${PWD}:/exercise <image-id>
 ```
 to lunch the docker container, where:
- 	- \<port\> is a free port of your choice
-	- \<image-id\> is the image id copied in the previous step.
+- \<port\> is a free port of your choice
+- \<image-id\> is the image id copied in the previous step.
 
 6. You will a message from Jupyter Notebook. It will end with something like:
 ```

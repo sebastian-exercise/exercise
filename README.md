@@ -61,16 +61,15 @@ to lunch the docker container, where:
     to login with a token:
         http://<some url>:8888/?token=<token>
 ```
-where: 
-	- \<token\> is a large alphanumeric string. Copy it.
+where \<token\> is a large alphanumeric string. Copy it.
 
 7. Open a web browser an go to the URL: 
 ```
   localhost:<port>/?token=<token>
 ```
 where:
-	- \<port\> is the port choosen in step 5
-	- \<token\> is the token copied in step 6
+- \<port\> is the port choosen in step 5
+- \<token\> is the token copied in step 6
 
 8. This will show the Jupyter Notebook interface in your browser. Navigate to the directory where the notebooks were saved in step 1:
 ```
